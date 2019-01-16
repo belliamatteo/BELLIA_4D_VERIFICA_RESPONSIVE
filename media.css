@@ -1,0 +1,43 @@
+        * {
+            box-sizing: border-box;
+			background-color: black;
+        }
+
+        .col-2 {
+            width: 16.66%;
+        }
+		
+		.col-5 {
+		    text-align: center;
+            width: 41.66%;
+        }
+
+        .col-9 {
+            width: 75%;
+        }
+
+        .col-12 {
+            width: 100%;
+        }
+
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+           
+        }
+
+        [class*="bella"] {
+
+            padding: 15px;
+            background-color: #808080 ;
+        }
+
+        [class*="brutta"] {
+            float: left;
+            padding: 15px;
+            background-color: #808080 ;
+        }
+		.menu{
+		    padding: 8px;
+            margin-bottom: 7px;
+		}
